@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.btn, .btn-edit, .btn-delete {
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn {
+    background: green;
+    color: white;
+}
+.btn-edit {
+    background: orange;
+    color: white;
+}
+.btn-delete {
+    background: red;
+    color: white;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
